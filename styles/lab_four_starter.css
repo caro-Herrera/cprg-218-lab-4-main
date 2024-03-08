@@ -1,0 +1,177 @@
+html {
+  font-family: 'Exo', sans-serif;
+}
+
+/* Style for Banner Hero  */
+.hero-banner {
+  position: relative;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+.hero-banner img {
+    max-width: 100%;
+}
+.hero-banner h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+    color:#25f382;
+}
+.hero-banner h2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color:#f4f4f4;
+}
+
+/* Style for Content Section */
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding: 50px 0;
+}
+
+.content-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.content-section h2 {
+  font-size: 2rem;
+  color: #096a23;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content-section p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content-section img {
+  max-width: 100%;
+  transition: transform 0.2s; 
+}
+.content-section img:hover {
+  transform: scale(1.03);
+}
+
+.content-section button {
+  padding: 10px 20px;
+  background-color: #096a23;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  transition: background-color 0.3s;
+}
+
+.content-section button:hover {
+    background-color: #0b9441; 
+}
+
+
+
+/* Style for the Accordion */
+.accordion {
+  margin-top: 20px;
+}
+
+.accordion h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #096a23;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-question {
+  background-color: #f4f4f4;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-answer {
+  display: none;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.accordion-toggle {
+  float: right;
+}
+
+/* Style for símbol "+" y "-" */
+.accordion-toggle::after {
+  content: '+';
+}
+
+.accordion-toggle.active::after {
+  content: '-';
+}
+
+/* Style for the Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: relative;
+}
+
+.links {
+  max-width: 1200px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#map {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-right: 0%;
+}
+
+footer p {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

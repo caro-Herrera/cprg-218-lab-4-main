@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="/styles/fonts.css">
+  <link rel="stylesheet" type="text/css" href="/styles/global.css">
+  <link rel="stylesheet" type="text/css" href="styles/lab_four_starter.css">
+  <title>Common Website Features</title>
+</head>
+<body>
+  <section class="hero-banner">
+    <img src="Images/Banner.jpg" alt="Banner">
+    <h1>Yoga classes</h1>
+    <h2>Find your inner balance</h2>
+</section>
+
+<div class="content-section">
+ <div class="content-left">
+    <h2>Benefits of Yoga</h2>
+    <p>Yoga is a practice that benefits both the body and the mind. Discover its advantages and improve your well-being.</p>
+    <button id="myButton" class="myButton">Join a class!</button>
+ </div>
+ <div class="content-right">
+    <img src="Images/Class.jpg" alt="Class">
+ </div>
+</div> 
+
+<div class="accordion">
+  <h2>Why Yoga?</h2>
+  <div class="accordion-item">
+      <div class="accordion-question">Yoga for Every Body <span class="accordion-toggle">+</span></div>
+      <div class="accordion-answer">Come unite your mind, body, and soul while you  ease tension and promote your well being at Calgary's longest running studio. Regular practice improves your breathing, strength, endurance, and outlook on life. Yoga will strengthen but relax your body while clearing and focusing your mind. 
+       Yoga is for every body and our extensive use of props and focus on proper alignment means truly anyone can get the benefits of this practise, no matter your age, fitness or scepticism level, Yoga Sarana will benefit you</div>
+  </div>
+  <div class="accordion-item">
+      <div class="accordion-question">What is IYENGAR Yoga <span class="accordion-toggle">+</span></div>
+      <div class="accordion-answer">Iyengar Yoga, is named for B. K. S. Iyengar and described in his bestselling book Light on Yoga (1966). This style has an emphasis on detail, precision and alignment; using props in the performance of yoga postures 
+       such as belts, blocks, and blankets, as aids for getting into poses correctly, minimizing the risk of injury or strain. Teachers receive extensive training, measured in years, not hours.  While we have other forms of yoga at Yoga Sarana but we keep the foundations set in Iyengar in everything we do. </div>
+  </div>
+  <div class="accordion-item">
+    <div class="accordion-question">Studio Tips <span class="accordion-toggle">+</span></div>
+    <div class="accordion-answer">At Yoga Sarana we know that it can be confusing and intimidating to come to a new place. To make sure everyone feels safe, comfortable and welcome we have a few guidelines and some basic yoga etiquette that keep everything running smoothly.  
+       We have moved to our new location and things are getting busier and we have some awesome partners we hope you will get to know. Grab a bite at Cabcity Cafe or treat yourself to some wellness at The Way!</div>
+</div>
+</div>
+
+<footer>
+  <div class="links">
+      <nav>
+          <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+      </nav>
+      <div id="map"></div>
+      <p id="copyright">
+        <script>
+            document.write("&copy; " + new Date().getFullYear() + " Yoga.com. All Rights Reserved.");
+        </script>
+    </p>
+  </div>
+</footer>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUDA2_zeSZ3EWK--NLJ_4Qg1CqnYakCWA&callback=initMap"></script>
+
+</body>
+</html>
